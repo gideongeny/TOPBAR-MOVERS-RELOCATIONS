@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Topbar Movers & Relocations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+   <img src="images/logo.jpg" alt="Packing">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#email">Email Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Topbar Movers & Relocations</h1>
+    <p>Relocating Made Easy</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+
+      <div class="service">
+        <img src="images/Safe Packing of Items.jpeg" alt="Packing">
+        <h3>Safe Packing of Items</h3>
+        <p>We handle your belongings with care using quality packing materials to avoid any damage during transport.</p>
+      </div>
+
+      <div class="service">
+        <img src="images/Loading and Transportation.jpeg" alt="Loading">
+        <h3>Loading and Transportation</h3>
+        <p>Our trained staff ensures safe and efficient loading of your items for smooth transportation to your new location.</p>
+      </div>
+
+      <div class="service">
+        <img src="images/Offloading and Unpacking.avif" alt="Unpacking">
+        <h3>Offloading and Unpacking</h3>
+        <p>We help you offload, unpack, and organize your belongings quickly so you can settle in stress-free.</p>
+      </div>
+
+      <div class="service">
+        <img src="images/Unmounting & Mounting Services.webp" alt="Mounting">
+        <h3>Unmounting & Mounting Services</h3>
+        <p>We professionally handle TVs, photos, mirrors, and picture frames during uninstallation and reinstallation.</p>
+      </div>
+
+      <div class="service">
+        <img src="images/Arranging the New House.webp" alt="Setup">
+        <h3>Arranging the New House</h3>
+        <p>Let us arrange your furniture and home setup to your satisfaction, making your space feel like home.</p>
+      </div>
+
+      <div class="service">
+        <img src="images/Office Move.png" alt="Office Move">
+        <h3>Office Move</h3>
+        <p>We specialize in relocating offices with minimal disruption to your work. Fast, reliable, and secure!</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <a href="tel:+254719162596">0719 162 596</a></p>
+  </section>
+
+  <section id="email" class="email">
+    <h2>Email Us</h2>
+    <p><strong>Email:</strong> <a href="mailto:topbar96@gmail.com">topbar96@gmail.com</a></p>
+  </section>
+
+
+<section class="slogan-footer">
+  <h2>Professional, Quality and Responsive</h2>
+</section>
+
+<footer class="main-footer">
+  <p>© 2025 Topbar Movers. All rights reserved.</p>
+</footer>
+
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  </script>
+</body>
+</html>
