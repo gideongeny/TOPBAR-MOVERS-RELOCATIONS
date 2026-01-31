@@ -48,4 +48,4 @@ The Topbar Movers digital presence is built on a custom **World-Class Design Sys
 
 ## 📜 Credits
 
-Created and maintained by **MUKHTAR**. All rights reserved © 2025 Topbar Movers.
+Created and maintained by **Gideon Ngeno**. All rights reserved © 2025 Topbar Movers.
